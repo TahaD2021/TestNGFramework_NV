@@ -1,0 +1,239 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3490139800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on TekSchool page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_TekSchool_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 986300500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Click on Test Environment link",
+            "match": {
+              "location": "LoginStepDefinitions.user_Click_on_Test_Environment_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8962800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should see Test Environment page",
+            "match": {
+              "location": "LoginStepDefinitions.user_should_see_Test_Environment_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10359940100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "SDET2019AUG_SDET_Register_Form_Test",
+        "description": "",
+        "id": "tek-school-scenarios;sdet2019aug-sdet-register-form-test",
+        "after": [
+          {
+            "result": {
+              "duration": 770254400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 699115700,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "User click on myAccount menu on top of the page",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_myAccount_menu_on_top_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 600397400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User click on register on myAccount menu",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_register_on_myAccount_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 562160000,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User fill register form with below information",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_fill_register_form_with_below_information(DataTable)"
+            },
+            "rows": [
+              {
+                "comments": [
+                  {
+                    "line": 69,
+                    "value": "#firstname|lastName|email|phone|password|"
+                  }
+                ],
+                "cells": [
+                  "Shaiq",
+                  "Darwish",
+                  "austin.cintron@sakilacustomer.org",
+                  "2021234455",
+                  "Test123"
+                ],
+                "line": 70
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 427806200,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User click on \u0027no\u0027 radio button for Subscribe",
+            "match": {
+              "arguments": [
+                {
+                  "val": "no",
+                  "offset": 15
+                }
+              ],
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_yes_radio_button_for_Subscribe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 558454300,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "User click on continue button",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 356474100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User should see \u0027Your Account Has Been Created!\u0027",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_should_see_Your_Account_Has_Been_Created()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 99111200,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User connects to DataBase",
+            "match": {
+              "location": "TekSchoolScenariosStepDefinitions.user_connects_to_DataBase()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28136400,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User sends query \u0027select * from public.customer where email\u003d\u0027austin.cintron@sakilacustomer.org\u0027\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "select * from public.customer where email\u003d\u0027austin.cintron@sakilacustomer.org\u0027",
+                  "offset": 18
+                }
+              ],
+              "location": "TekSchoolScenariosStepDefinitions.user_sends_query(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75600,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User verify account is created with email \u0027austin.cintron@sakilacustomer.org\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "austin.cintron@sakilacustomer.org",
+                  "offset": 43
+                }
+              ],
+              "location": "TekSchoolScenariosStepDefinitions.user_verify_account_is_created_with_email(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 63,
+            "name": "@SDET_RF_DBV"
+          }
+        ]
+      }
+    ],
+    "name": "Tek School Scenarios",
+    "description": "",
+    "id": "tek-school-scenarios",
+    "keyword": "Feature",
+    "uri": "Features/TekSchoolScenarios.feature"
+  }
+]

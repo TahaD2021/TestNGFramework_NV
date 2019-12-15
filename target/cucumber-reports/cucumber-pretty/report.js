@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10359940100,
+  "duration": 10265080900,
   "status": "passed"
 });
 formatter.background({
@@ -36,21 +36,21 @@ formatter.match({
   "location": "LoginStepDefinitions.user_is_on_TekSchool_page()"
 });
 formatter.result({
-  "duration": 3490139800,
+  "duration": 3148052200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_Click_on_Test_Environment_link()"
 });
 formatter.result({
-  "duration": 986300500,
+  "duration": 893997600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinitions.user_should_see_Test_Environment_page()"
 });
 formatter.result({
-  "duration": 8962800,
+  "duration": 7770200,
   "status": "passed"
 });
 formatter.scenario({
@@ -68,54 +68,40 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 66,
-  "name": "User click on myAccount menu on top of the page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 67,
-  "name": "User click on register on myAccount menu",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 68,
-  "name": "User fill register form with below information",
-  "rows": [
+  "comments": [
     {
-      "comments": [
-        {
-          "line": 69,
-          "value": "#firstname|lastName|email|phone|password|"
-        }
-      ],
-      "cells": [
-        "Shaiq",
-        "Darwish",
-        "austin.cintron@sakilacustomer.org",
-        "2021234455",
-        "Test123"
-      ],
-      "line": 70
+      "line": 66,
+      "value": "# When User click on myAccount menu on top of the page"
+    },
+    {
+      "line": 67,
+      "value": "# And User click on register on myAccount menu"
+    },
+    {
+      "line": 68,
+      "value": "# And User fill register form with below information"
+    },
+    {
+      "line": 69,
+      "value": "#firstname|lastName|email|phone|password|"
+    },
+    {
+      "line": 70,
+      "value": "# |Shaiq|Darwish|austin.cintron@sakilacustomer.org|2021234455| Test123|"
+    },
+    {
+      "line": 71,
+      "value": "#And User click on \u0027no\u0027 radio button for Subscribe"
+    },
+    {
+      "line": 72,
+      "value": "# And User click on continue button"
+    },
+    {
+      "line": 73,
+      "value": "# Then User should see \u0027Your Account Has Been Created!\u0027"
     }
   ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 71,
-  "name": "User click on \u0027no\u0027 radio button for Subscribe",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 72,
-  "name": "User click on continue button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 73,
-  "name": "User should see \u0027Your Account Has Been Created!\u0027",
-  "keyword": "Then "
-});
-formatter.step({
   "line": 74,
   "name": "User connects to DataBase",
   "keyword": "When "
@@ -131,58 +117,10 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TekSchoolScenariosStepDefinitions.user_click_on_myAccount_menu_on_top_of_the_page()"
-});
-formatter.result({
-  "duration": 699115700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TekSchoolScenariosStepDefinitions.user_click_on_register_on_myAccount_menu()"
-});
-formatter.result({
-  "duration": 600397400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TekSchoolScenariosStepDefinitions.user_fill_register_form_with_below_information(DataTable)"
-});
-formatter.result({
-  "duration": 562160000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "no",
-      "offset": 15
-    }
-  ],
-  "location": "TekSchoolScenariosStepDefinitions.user_click_on_yes_radio_button_for_Subscribe(String)"
-});
-formatter.result({
-  "duration": 427806200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TekSchoolScenariosStepDefinitions.user_click_on_continue_button()"
-});
-formatter.result({
-  "duration": 558454300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TekSchoolScenariosStepDefinitions.user_should_see_Your_Account_Has_Been_Created()"
-});
-formatter.result({
-  "duration": 356474100,
-  "status": "passed"
-});
-formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_connects_to_DataBase()"
 });
 formatter.result({
-  "duration": 99111200,
+  "duration": 51779399,
   "status": "passed"
 });
 formatter.match({
@@ -195,7 +133,7 @@ formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_sends_query(String)"
 });
 formatter.result({
-  "duration": 28136400,
+  "duration": 34996300,
   "status": "passed"
 });
 formatter.match({
@@ -208,11 +146,11 @@ formatter.match({
   "location": "TekSchoolScenariosStepDefinitions.user_verify_account_is_created_with_email(String)"
 });
 formatter.result({
-  "duration": 75600,
+  "duration": 376299,
   "status": "passed"
 });
 formatter.after({
-  "duration": 770254400,
+  "duration": 808091400,
   "status": "passed"
 });
 });

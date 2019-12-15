@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3490139800,
+              "duration": 3148052200,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 986300500,
+              "duration": 893997600,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 8962800,
+              "duration": 7770200,
               "status": "passed"
             },
             "line": 6,
@@ -51,7 +51,7 @@
         "before": [
           {
             "result": {
-              "duration": 10359940100,
+              "duration": 10265080900,
               "status": "passed"
             },
             "match": {
@@ -66,7 +66,7 @@
         "after": [
           {
             "result": {
-              "duration": 770254400,
+              "duration": 808091400,
               "status": "passed"
             },
             "match": {
@@ -79,105 +79,43 @@
         "steps": [
           {
             "result": {
-              "duration": 699115700,
+              "duration": 51779399,
               "status": "passed"
             },
-            "line": 66,
-            "name": "User click on myAccount menu on top of the page",
-            "match": {
-              "location": "TekSchoolScenariosStepDefinitions.user_click_on_myAccount_menu_on_top_of_the_page()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 600397400,
-              "status": "passed"
-            },
-            "line": 67,
-            "name": "User click on register on myAccount menu",
-            "match": {
-              "location": "TekSchoolScenariosStepDefinitions.user_click_on_register_on_myAccount_menu()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 562160000,
-              "status": "passed"
-            },
-            "line": 68,
-            "name": "User fill register form with below information",
-            "match": {
-              "location": "TekSchoolScenariosStepDefinitions.user_fill_register_form_with_below_information(DataTable)"
-            },
-            "rows": [
+            "comments": [
               {
-                "comments": [
-                  {
-                    "line": 69,
-                    "value": "#firstname|lastName|email|phone|password|"
-                  }
-                ],
-                "cells": [
-                  "Shaiq",
-                  "Darwish",
-                  "austin.cintron@sakilacustomer.org",
-                  "2021234455",
-                  "Test123"
-                ],
-                "line": 70
+                "line": 66,
+                "value": "# When User click on myAccount menu on top of the page"
+              },
+              {
+                "line": 67,
+                "value": "# And User click on register on myAccount menu"
+              },
+              {
+                "line": 68,
+                "value": "# And User fill register form with below information"
+              },
+              {
+                "line": 69,
+                "value": "#firstname|lastName|email|phone|password|"
+              },
+              {
+                "line": 70,
+                "value": "# |Shaiq|Darwish|austin.cintron@sakilacustomer.org|2021234455| Test123|"
+              },
+              {
+                "line": 71,
+                "value": "#And User click on \u0027no\u0027 radio button for Subscribe"
+              },
+              {
+                "line": 72,
+                "value": "# And User click on continue button"
+              },
+              {
+                "line": 73,
+                "value": "# Then User should see \u0027Your Account Has Been Created!\u0027"
               }
             ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 427806200,
-              "status": "passed"
-            },
-            "line": 71,
-            "name": "User click on \u0027no\u0027 radio button for Subscribe",
-            "match": {
-              "arguments": [
-                {
-                  "val": "no",
-                  "offset": 15
-                }
-              ],
-              "location": "TekSchoolScenariosStepDefinitions.user_click_on_yes_radio_button_for_Subscribe(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 558454300,
-              "status": "passed"
-            },
-            "line": 72,
-            "name": "User click on continue button",
-            "match": {
-              "location": "TekSchoolScenariosStepDefinitions.user_click_on_continue_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 356474100,
-              "status": "passed"
-            },
-            "line": 73,
-            "name": "User should see \u0027Your Account Has Been Created!\u0027",
-            "match": {
-              "location": "TekSchoolScenariosStepDefinitions.user_should_see_Your_Account_Has_Been_Created()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 99111200,
-              "status": "passed"
-            },
             "line": 74,
             "name": "User connects to DataBase",
             "match": {
@@ -187,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 28136400,
+              "duration": 34996300,
               "status": "passed"
             },
             "line": 75,
@@ -205,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 75600,
+              "duration": 376299,
               "status": "passed"
             },
             "line": 76,

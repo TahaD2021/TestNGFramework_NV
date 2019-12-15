@@ -16,6 +16,10 @@ import utilities.DBUtilities;
 import utilities.Utility;
 
 public class TekSchoolScenariosStepDefinitions extends Base {
+	
+	/**
+	 * This is a test comment for git push 
+	 */
 
 	TekSchoolScenariosPageObject tekSchoolScenariosPageObject = new TekSchoolScenariosPageObject();
 

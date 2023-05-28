@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Base {
 
+	String testVar = "Testing git operations";
 	public static WebDriver driver;
 	public static Properties properties;
 

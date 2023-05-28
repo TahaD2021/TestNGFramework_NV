@@ -68,14 +68,27 @@ public class DBUtilities {
 		return resultSet;
 
 	}
-	
-	
+
 	public void writeResultToCSV() {
-		
-		
-		
+
 	}
-	
-	
+
+	public static String data() {
+
+		String a = null;
+		try {
+			while (resultSet.next()) {
+
+				a = resultSet.getString("email");
+				System.out.print(a);
+
+			}
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		return a;
+	}
 
 }

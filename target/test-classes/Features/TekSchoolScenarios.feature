@@ -59,10 +59,10 @@ Feature: Tek School Scenarios
     And User click on register on myAccount menu
     And User fill register form with below information
       #firstname|lastName|email|phone|password|
-      | Shaiq | Darwish | austin.cintron@sakilacustomer.org | 2021234455 | Test123 |
+      | Shaiq | Darwish | enrique.forsythe@sakilacustomer.org | 2021234455 | Test123 |
     And User click on 'no' radio button for Subscribe
     And User click on continue button
     Then User should see 'Your Account Has Been Created!'
     When User connects to DataBase
-    And User sends query 'select * from public.customer where email='austin.cintron@sakilacustomer.org''
-    Then User verify account is created with email 'austin.cintron@sakilacustomer.org'
+    And User sends query 'select * from public.customer where email='freddie.duggan@sakilacustomer.org''
+    Then User verify account is created with email 'freddie.duggan@sakilacustomer.org'

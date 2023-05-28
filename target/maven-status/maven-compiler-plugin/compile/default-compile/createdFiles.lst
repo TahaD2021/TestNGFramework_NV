@@ -1,2 +1,13 @@
+utilities\ScreenRecordUtility.class
+selenium\basics\DBUtilities.class
+utilities\DBUtilities.class
+Practice.class
+Calc.class
+FindingOddNubers.class
+practicingJavaCore\Method_Demo.class
 core\Base.class
+javaPractice\CollectionToArray.class
+pageObjects\TekSchoolScenariosPageObject.class
+RegularExpressions.class
+utilities\Utility.class
 pageObjects\LoginPageObject.class

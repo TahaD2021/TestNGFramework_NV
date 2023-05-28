@@ -6,10 +6,6 @@ formatter.feature({
   "id": "tek-school-scenarios",
   "keyword": "Feature"
 });
-formatter.before({
-  "duration": 10265080900,
-  "status": "passed"
-});
 formatter.background({
   "line": 3,
   "name": "",
@@ -32,29 +28,20 @@ formatter.step({
   "name": "User should see Test Environment page",
   "keyword": "And "
 });
-formatter.match({
-  "location": "LoginStepDefinitions.user_is_on_TekSchool_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 3148052200,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.user_Click_on_Test_Environment_link()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 893997600,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "location": "LoginStepDefinitions.user_should_see_Test_Environment_page()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 7770200,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.scenario({
-  "line": 64,
+  "line": 57,
   "name": "SDET2019AUG_SDET_Register_Form_Test",
   "description": "",
   "id": "tek-school-scenarios;sdet2019aug-sdet-register-form-test",
@@ -62,95 +49,108 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 63,
+      "line": 56,
       "name": "@SDET_RF_DBV"
     }
   ]
 });
 formatter.step({
-  "comments": [
+  "line": 58,
+  "name": "User click on myAccount menu on top of the page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 59,
+  "name": "User click on register on myAccount menu",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 60,
+  "name": "User fill register form with below information",
+  "rows": [
     {
-      "line": 66,
-      "value": "# When User click on myAccount menu on top of the page"
-    },
-    {
-      "line": 67,
-      "value": "# And User click on register on myAccount menu"
-    },
-    {
-      "line": 68,
-      "value": "# And User fill register form with below information"
-    },
-    {
-      "line": 69,
-      "value": "#firstname|lastName|email|phone|password|"
-    },
-    {
-      "line": 70,
-      "value": "# |Shaiq|Darwish|austin.cintron@sakilacustomer.org|2021234455| Test123|"
-    },
-    {
-      "line": 71,
-      "value": "#And User click on \u0027no\u0027 radio button for Subscribe"
-    },
-    {
-      "line": 72,
-      "value": "# And User click on continue button"
-    },
-    {
-      "line": 73,
-      "value": "# Then User should see \u0027Your Account Has Been Created!\u0027"
+      "comments": [
+        {
+          "line": 61,
+          "value": "#firstname|lastName|email|phone|password|"
+        }
+      ],
+      "cells": [
+        "Shaiq",
+        "Darwish",
+        "enrique.forsythe@sakilacustomer.org",
+        "2021234455",
+        "Test123"
+      ],
+      "line": 62
     }
   ],
-  "line": 74,
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "User click on \u0027no\u0027 radio button for Subscribe",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "User click on continue button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "User should see \u0027Your Account Has Been Created!\u0027",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 66,
   "name": "User connects to DataBase",
   "keyword": "When "
 });
 formatter.step({
-  "line": 75,
-  "name": "User sends query \u0027select * from public.customer where email\u003d\u0027austin.cintron@sakilacustomer.org\u0027\u0027",
+  "line": 67,
+  "name": "User sends query \u0027select * from public.customer where email\u003d\u0027freddie.duggan@sakilacustomer.org\u0027\u0027",
   "keyword": "And "
 });
 formatter.step({
-  "line": 76,
-  "name": "User verify account is created with email \u0027austin.cintron@sakilacustomer.org\u0027",
+  "line": 68,
+  "name": "User verify account is created with email \u0027freddie.duggan@sakilacustomer.org\u0027",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "TekSchoolScenariosStepDefinitions.user_connects_to_DataBase()"
-});
+formatter.match({});
 formatter.result({
-  "duration": 51779399,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "select * from public.customer where email\u003d\u0027austin.cintron@sakilacustomer.org\u0027",
-      "offset": 18
-    }
-  ],
-  "location": "TekSchoolScenariosStepDefinitions.user_sends_query(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 34996300,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "austin.cintron@sakilacustomer.org",
-      "offset": 43
-    }
-  ],
-  "location": "TekSchoolScenariosStepDefinitions.user_verify_account_is_created_with_email(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 376299,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.after({
-  "duration": 808091400,
-  "status": "passed"
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });

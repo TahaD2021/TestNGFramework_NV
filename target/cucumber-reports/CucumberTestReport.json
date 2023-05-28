@@ -11,158 +11,144 @@
         "steps": [
           {
             "result": {
-              "duration": 3148052200,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 4,
             "name": "User is on TekSchool page",
-            "match": {
-              "location": "LoginStepDefinitions.user_is_on_TekSchool_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 893997600,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 5,
             "name": "User Click on Test Environment link",
-            "match": {
-              "location": "LoginStepDefinitions.user_Click_on_Test_Environment_link()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 7770200,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
             "name": "User should see Test Environment page",
-            "match": {
-              "location": "LoginStepDefinitions.user_should_see_Test_Environment_page()"
-            },
+            "match": {},
             "keyword": "And "
           }
         ]
       },
       {
-        "before": [
-          {
-            "result": {
-              "duration": 10265080900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.beforeHooks()"
-            }
-          }
-        ],
-        "line": 64,
+        "line": 57,
         "name": "SDET2019AUG_SDET_Register_Form_Test",
         "description": "",
         "id": "tek-school-scenarios;sdet2019aug-sdet-register-form-test",
-        "after": [
-          {
-            "result": {
-              "duration": 808091400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Initializer.afterHooks()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 51779399,
-              "status": "passed"
+              "status": "undefined"
             },
-            "comments": [
-              {
-                "line": 66,
-                "value": "# When User click on myAccount menu on top of the page"
-              },
-              {
-                "line": 67,
-                "value": "# And User click on register on myAccount menu"
-              },
-              {
-                "line": 68,
-                "value": "# And User fill register form with below information"
-              },
-              {
-                "line": 69,
-                "value": "#firstname|lastName|email|phone|password|"
-              },
-              {
-                "line": 70,
-                "value": "# |Shaiq|Darwish|austin.cintron@sakilacustomer.org|2021234455| Test123|"
-              },
-              {
-                "line": 71,
-                "value": "#And User click on \u0027no\u0027 radio button for Subscribe"
-              },
-              {
-                "line": 72,
-                "value": "# And User click on continue button"
-              },
-              {
-                "line": 73,
-                "value": "# Then User should see \u0027Your Account Has Been Created!\u0027"
-              }
-            ],
-            "line": 74,
-            "name": "User connects to DataBase",
-            "match": {
-              "location": "TekSchoolScenariosStepDefinitions.user_connects_to_DataBase()"
-            },
+            "line": 58,
+            "name": "User click on myAccount menu on top of the page",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 34996300,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 75,
-            "name": "User sends query \u0027select * from public.customer where email\u003d\u0027austin.cintron@sakilacustomer.org\u0027\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "select * from public.customer where email\u003d\u0027austin.cintron@sakilacustomer.org\u0027",
-                  "offset": 18
-                }
-              ],
-              "location": "TekSchoolScenariosStepDefinitions.user_sends_query(String)"
-            },
+            "line": 59,
+            "name": "User click on register on myAccount menu",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 376299,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 76,
-            "name": "User verify account is created with email \u0027austin.cintron@sakilacustomer.org\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "austin.cintron@sakilacustomer.org",
-                  "offset": 43
-                }
-              ],
-              "location": "TekSchoolScenariosStepDefinitions.user_verify_account_is_created_with_email(String)"
+            "line": 60,
+            "name": "User fill register form with below information",
+            "match": {},
+            "rows": [
+              {
+                "comments": [
+                  {
+                    "line": 61,
+                    "value": "#firstname|lastName|email|phone|password|"
+                  }
+                ],
+                "cells": [
+                  "Shaiq",
+                  "Darwish",
+                  "enrique.forsythe@sakilacustomer.org",
+                  "2021234455",
+                  "Test123"
+                ],
+                "line": 62
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 63,
+            "name": "User click on \u0027no\u0027 radio button for Subscribe",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 64,
+            "name": "User click on continue button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 65,
+            "name": "User should see \u0027Your Account Has Been Created!\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 66,
+            "name": "User connects to DataBase",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 67,
+            "name": "User sends query \u0027select * from public.customer where email\u003d\u0027freddie.duggan@sakilacustomer.org\u0027\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 68,
+            "name": "User verify account is created with email \u0027freddie.duggan@sakilacustomer.org\u0027",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 63,
+            "line": 56,
             "name": "@SDET_RF_DBV"
           }
         ]

@@ -23,9 +23,8 @@ public class Base {
 
 	public Base() {
 
-		
+		BufferedReader reader;
 		try {
-			BufferedReader reader;
 			reader = new BufferedReader(new FileReader(ProjectPropertyPath));
 			properties = new Properties();
 			try {

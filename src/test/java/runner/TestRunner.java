@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "classpath:Features", // path to feature files
-glue = { "stepDefinitions" }, // path to step definitions 
+glue = {"stepDefinitions"}, 
 tags = {"@SDET_RF_DBV"}, // tags to run on feature level or scenario level
 dryRun = false, // if false: check if all the steps in feature file has steps in step definitions
 monochrome = true, // display the console output in readable way

@@ -1,7 +1,5 @@
 package stepDefinitions;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.List;
 
 import org.testng.Assert;
@@ -119,7 +117,20 @@ public class TekSchoolScenariosStepDefinitions extends Base {
 	@Then("^User verify account is created with email '(.+)'$")
 	public void user_verify_account_is_created_with_email(String emailValidation) throws Throwable {
 		
-		
+		Assert.assertEquals(DBUtilities.data(), emailValidation);
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
